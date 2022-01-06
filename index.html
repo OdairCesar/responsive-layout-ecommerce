@@ -10,17 +10,48 @@
     <link rel='stylesheet' href='./node_modules/swiper/swiper-bundle.min.css' />
     <link rel='stylesheet' href='./node_modules/boxicons/css/boxicons.min.css' />
 
-    <script src='./node_modules/swiper/swiper-bundle.min.js'></script>
-    <script src='./assets/js/main.js'></script>
     <title>Layout Responsivo para E-Commerce</title>
 </head>
 <body>
-    <header class="grid">
-        <h1>test</h1>
-        <h2>test</h2>
-        <h3>test</h3>
-        <p>test</p>
-        <button>test</button>
+    <header class="header" id='header'>
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class='bx bxs-watch'></i> Rolex
+            </a>
+
+            <div class="nav__menu" id='nav-menu'>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">Destaque</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Produtos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link">Novos</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+            </div>
+            
+            <div class="nav__btns">
+                <div class="nav__shop" id='cart-shop'>
+                    <i class="bx bx-shopping-bag"></i>
+                </div>
+
+                <div class="nav__toggle" id='nav-toggle'>
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
     </header>
+    <script src='./node_modules/swiper/swiper-bundle.min.js'></script>
+    <script src='./assets/js/main.js'></script>
 </body>
 </html>

@@ -328,9 +328,15 @@ button {
   padding: 1rem 1.5rem;
 }
 
+/* Change background header */
 .scroll-header{
   background-color: var(--body-color);
   box-shadow: 0 1px 4px #2825251a;
+}
+
+/* Active Links */
+.active-link{
+  color: var(--first-color);
 }
 
 /*=============== FEATURED ===============*/
@@ -747,4 +753,41 @@ button {
   text-align: center;
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
+}
+
+.scrollup{
+  position: fixed;
+  right:1.5rem;
+  bottom: -30%;
+  background-color: var(--container-color);
+  box-shadow: 0 4px 12px #3333331a;
+  display: inline-flex;
+  padding: .25rem;
+  z-index: var(--z-tooltip);
+  opacity: .8;
+  transition: .4s;
+  border-radius: 2rem;
+}
+
+.scrollup:hover{
+  box-shadow: 0 4px 12px #3333338f;
+  opacity: 1;
+}
+
+.scrollup__icon{
+  font-size: 2.5rem;
+  color: var(--first-color);
+}
+
+.show-scroll{
+  bottom: 1.5rem;
+}
+
+::-webkit-scrollbar {
+  width: .6rem;
+  background: hsl(0, 0%, 74%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 17%);
 }

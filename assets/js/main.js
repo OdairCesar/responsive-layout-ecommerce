@@ -93,3 +93,22 @@ function scrollUp(){
   if(this.scrollY >= 350) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
+
+/*=============== SHOW CART ===============*/
+const cart = document.getElementById('cart'),
+      cartShop = document.getElementById('cart-shop'),
+      cartClose = document.getElementById('cart-close')
+
+/* Validate if constant exists */
+if(cartShop){ //SHOW
+    cartShop.addEventListener('click', () =>{
+        cart.classList.add('show-cart')
+    })
+}
+
+/* Validate if constant exists */
+if(cartClose){//HIDDEN
+    cartClose.addEventListener('click', () =>{
+        cart.classList.remove('show-cart')
+    })
+}

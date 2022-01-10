@@ -22,7 +22,7 @@ O projeto já está concluido. Sendo que o desenvolvimento foi dividido em etapa
 - [x] Criar home do site e adicionar fundo ao cabeçalho quando ouvesse uma rolagem da pagina.
 - [x] Criar featured, story e testimonial do site.
 - [x] Criar news e footer do site.
-- [x] Adicionar um butão de ScrollUp e adicionar cor no item do menu, caso seja ontem o usuario esta na pagina
+- [x] Adicionar um butão de ScrollUp e adicionar cor no item do menu, caso seja onde o usuario esta localizado na pagina
 - [x] Criar o cartão do carrinho de compra
 - [x] Adicionar tema escuro
 - [x] Melhorar aparencia do site para telas muito pequenas, medias e grandes.

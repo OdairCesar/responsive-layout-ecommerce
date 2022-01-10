@@ -55,13 +55,13 @@ let newSwiper = new Swiper(".new-swiper", {
   
   breakpoints: {
     576: {
-      slicePerView: 2,
+      slidesPerView: 2,
     },
     768: {
-      slicePerView: 3,
+      slidesPerView: 3,
     },
     1024: {
-      slicePerView: 4,
+      slidesPerView: 4,
     }
   }
 })

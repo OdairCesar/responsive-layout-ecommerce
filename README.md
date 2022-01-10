@@ -7,8 +7,10 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Swiper](https://img.shields.io/static/v1?label=&message=Swiper&style=for-the-badge&color=black)
 
-<img border='1' src="./.github/dark-home-responsive.png" alt="Home telas pequenas no tema escuro">
-<img border='1' src="./.github/home-responsive.png" alt="Home telas pequenas">
+<div style='display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 0.5rem; row-gap: 0.5rem'>
+    <img border='1' src="./.github/dark-home-responsive.png" alt="Home telas pequenas no tema escuro">
+    <img border='1' src="./.github/home-responsive.png" alt="Home telas pequenas">
+</div>
 
 >  Um exemplo de site com reponsividade para lojas online
 ### Etapas de desenvolvimento

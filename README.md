@@ -7,10 +7,8 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Swiper](https://img.shields.io/static/v1?label=&message=Swiper&style=for-the-badge&color=black)
 
-<div style='display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 0.5rem; row-gap: 0.5rem'>
-    <img border='1' src="./.github/dark-home-responsive.png" alt="Home telas pequenas no tema escuro">
-    <img border='1' src="./.github/home-responsive.png" alt="Home telas pequenas">
-</div>
+<img width='48%' src="./.github/dark-home-responsive.png" alt="Home telas pequenas no tema escuro"><img width='48%' src="./.github/home-responsive.png" alt="Home telas pequenas">
+
 
 >  Um exemplo de site com reponsividade para lojas online
 ### Etapas de desenvolvimento
@@ -33,22 +31,14 @@ O único requisito é ter um servidor para rodar o layout, isso vai de sua prefe
 
 ## 💻 Em tela grande:
 
-<div style='display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 0.5rem; row-gap: 0.5rem'>
-    <img border='1' src="./.github/home.png" alt="Home telas pequenas">
-    <img border='1' src="./.github/produtos.png" alt="Home telas pequenas">
-    <img border='1' src="./.github/destaque.png" alt="Home telas pequenas">
-    <img border='1' src="./.github/dark-destaque.png" alt="Home telas pequenas">
-    <img border='1' src="./.github/nova-linha.png" alt="Home telas pequenas">
-    <img border='1' src="./.github/dark-nova-linha.png" alt="Home telas pequenas">
-    <img border='1' src="./.github/footer.png" alt="Home telas pequenas">
-</div>
+<img width='48%' src="./.github/home.png" alt="Home telas pequenas"><img width='48%' src="./.github/produtos.png" alt="Home telas pequenas">
+<img width='48%' src="./.github/destaque.png" alt="Home telas pequenas"><img width='48%' src="./.github/dark-destaque.png" alt="Home telas pequenas">
+<img width='48%' src="./.github/nova-linha.png" alt="Home telas pequenas"><img width='48%' src="./.github/dark-nova-linha.png" alt="Home telas pequenas">
+<img width='48%' src="./.github/footer.png" alt="Home telas pequenas">
+
 
 ## 📱 Em tela pequena:
 
-<div style='display: grid; grid-template-columns: repeat(5, 1fr); column-gap: 0.5rem; row-gap: 0.5rem'>
-    <img border='1' src="./.github/home-responsive.png" alt="Home telas pequenas">
-    <img border='1' src="./.github/dark-home-responsive.png" alt="Home telas pequenas">
-    <img border='1' src="./.github/produtos-responsive.png" alt="Home telas pequenas">
-    <img border='1' src="./.github/dark-produtos-responsive.png" alt="Home telas pequenas">
-    <img border='1' src="./.github/meu-carrinho-responsive.png" alt="Home telas pequenas">
-</div>
+<img width='19%' src="./.github/home-responsive.png" alt="Home telas pequenas"><img width='19%' src="./.github/dark-home-responsive.png" alt="Home telas pequenas">
+<img width='19%' src="./.github/produtos-responsive.png" alt="Home telas pequenas"><img width='19%' src="./.github/dark-produtos-responsive.png" alt="Home telas pequenas">
+<img width='19%' src="./.github/meu-carrinho-responsive.png" alt="Home telas pequenas">
